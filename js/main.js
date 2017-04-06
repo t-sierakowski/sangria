@@ -1,4 +1,4 @@
-window.addEventListener("load", zeroOut, false);
+/*window.addEventListener("load", zeroOut, false);
 
 function zeroOut() {
   var y = document.getElementById("sangriayes");
@@ -6,7 +6,7 @@ function zeroOut() {
   y.style.display = 'none';
   n.style.display = 'none';
 }
-
+*/
 function sangriaCheck (event) {
   var y = document.getElementById("sangriayes");
   var n = document.getElementById("sangriano");
