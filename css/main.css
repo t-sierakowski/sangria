@@ -1,16 +1,63 @@
-#sangria {
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 
+/*----------RESET----------*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+a, article, figure, footer, header, menu, nav {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  margin: 2em 11em;
+  border: solid .5em teal;
+  padding: 15px;
+}
+
+body {
+  background-image: url("/images/backgroundwine.png");
+  background-color: white;
+}
+
+button {
+  border-radius: 25px;
+  color: black;
+  background-color: lavender;
+  border: solid 4px teal;
+  font-size: 20px;
+}
+
+#sangria {
+  margin-left: 28em;
+  padding: 10px;
+  transform: translateY(15em);
 }
 
 #sangriayes {
+  font-family: 'Amatic SC', cursive;
   display: none;
+  color: white;
+  margin-left: 5em;
+  margin-top: 3em;
 }
 
 #sangriano {
+  font-family: 'Amatic SC', cursive;
   display: none;
-
+  color: white;
+  margin-left: 5em;
+  margin-top: 3em;
 }
 
-img {
-  max-width: 400px;
+#box {
+  height: 400px;
+  width: 425px;
+  background-color: teal;
+  border: solid 4px black;
+  position: relative;
+  margin-left: 22em;
+  z-index: -1;
 }
